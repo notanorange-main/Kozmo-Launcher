@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kozmo Launcher</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="center">
+  <h1>Kozmo Launcher</h1>
+  <p>v0.0.1</p>
+</div>
+
+<div class="status" id="status"></div>
+
+<div class="bar">
+  <div class="dropdown" id="dropdown">
+    <div class="dropdown-selected" id="dropdownSelected">
+      <span id="dropdownLabel">u0 Javascript</span>
+      <svg class="arrow" viewBox="0 0 10 6"><path d="M0 0l5 6 5-6z" fill="#9C93AE"/></svg>
+    </div>
+    <div class="dropdown-list">
+      <div class="dropdown-option active" data-href="vers/u0.html">u0 Javascript</div>
+      <div class="dropdown-option locked">u0.1 Javascript</div>
+      <div class="dropdown-option locked">u0.1 Wasm</div>
+    </div>
+  </div>
+
+  <button id="playBtn">Play</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
